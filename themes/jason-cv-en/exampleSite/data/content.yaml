@@ -1,0 +1,115 @@
+BasicInfo:
+  FirstName: Jason 
+  LastName: Wu
+  Photo: img/id.jpg
+  Contacts:
+    - Icon: fas fa-phone
+      Info: +86 18583657638
+    - Icon: fas fa-envelope
+      Info: wuhanghai@gmail.com
+      #    - Icon: fas fa-globe #Info: ines-almeida.com
+    - Icon: fas fa-map-marker-alt
+      Info: Cheng Du
+
+Profile: I have 15(+) years of work experience in software engineering for the telecom industry. I'm good at modeling and abstract the real world into the software. I'm a full-stack engineer, and I have taken part in the project which starts from scratch to deliver the software to the customer. and I have experience in the whole workflow which includes planning, implementing, delivering. I'm also a Linux geekery, I'm familiar with techniques under Linux desktop and server. I'm a quick learner and keep learning new things. I am also good at communication and collaboration.
+
+Experience:
+  - Employer: Nokia
+    Place: Chengdu, ChinaI have 15(+) years of work experience in software engineering for the telecom industry. I'm good at modeling and abstract the real world into the software. I'm a full-stack engineer, and I have taken part in the project which starts from scratch to deliver the software to the customer. and I have experience in the whole workflow which includes planning, implementing, delivering. I'm also a Linux geekery, I'm familiar with techniques under Linux desktop and server. I'm a quick learner and keep learning new things. I am also good at communication and collaboration.
+    Positions:
+      - Title: Expert, Domain Expert
+        Date: 2020 - Present
+        Details:
+          - Backend development with Go under microservice architecture.
+          - software testing include (unit testing, contract testing, function testing)
+          - DevOps pipe integration
+          - Requirement analysis and software design
+        Badges: ['Go', 'Gotest', 'Pact testing', 'Kubernetes', 'Docker', 'Makefile']
+
+      - Title: Frontend engineer
+        Date: 2019 - 2020
+        Details:
+          - Page implemenetation with Vue js
+        Badges: ['Javascript', 'Vue',  'Html, 'CSS']
+
+      - Title: Lead Software Developer
+        Date: 2016 - 2019
+        Details:
+          - Backend service development with Springboot framework
+          - Improve the system Tps with Redis cache
+          - None function implementing with spring boot actuator
+          - Test automation with robot framework
+        Badges: ['Java', 'Python', 'SpringBoot', 'SpringJPA', 'SQL','Shell', 'robot-framework']
+
+      - Title: Software engineer
+        Date: 2008 - 2016
+        Detials:
+          - Backend server development by CPP under Linux
+          - OSI stack implementation by C (3rd to 7th layer)
+        Badges: ['C++', 'C', 'CVOPS', 'ASN.1']
+
+  - Employer: HuaWei
+    Place: Shenzhen, China
+    Positions:
+      - Title: Software Developer
+        Date: 2005 - 2008
+        Details:
+          - Backend server development by C++ under Unix
+          - Map protocol stack implementation
+          - Tools development by VC6 under Windows server
+        Badges: ['VC/C++', 'Unix', 'oracle']
+
+Education:
+  - Course: Computer Science
+    Place: Chengdu University Information Technology
+    Date: Sep 2001 - June 2005
+
+Skills:
+  - Family: Programming
+    Items:
+      - Java
+      - GO
+      - C/C++
+      - Python
+      - Javascript
+      - HTML
+      - CSS
+      - SQL
+      - MongoDB
+      - Bash
+  - Family: Frameworks
+    Items:
+      - spring
+      - vue
+  - Family: Developer Tools
+    Items:
+      - Git
+      - Docker
+      - K8S
+      - Jenkins
+      - AWS
+      - Linux
+  - Family: Misc
+    Items:
+      - Object-oriented design
+      - Effective communication
+      - Team player
+      - Strong problem solver
+      - Good time management
+
+Languages:
+  - Name: Chinese
+    Level: Native
+  - Name: English
+    Level: Professional
+
+Diplomas:
+  - TOEIT (2009)
+  - Bachelor Degree(2005)
+  - CET4 (2002)
+
+Interests:
+  - Climbing 
+  - Snowboarding
+  - Travelling
+  - Football

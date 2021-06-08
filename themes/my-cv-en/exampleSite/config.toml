@@ -1,0 +1,225 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en"
+title = ""
+theme = "my-cv-en"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Jason Wu"
+        tagline = "Senior Software Engineer"
+        avatar = "avatar.jpg"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "ChengDu, China"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+8618583657638"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "wuhanghai@gmail.com"
+        #[[params.contact.list]]
+        #icon = "fas fa-globe"
+        #url = "#"
+        #text = "www.sailing0505.github.io"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Java/Go/C++/C"
+        [[params.skills.list.items]]
+        details = "Python/JavaScript/Bash"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL/MongoDB"
+        [[params.skills.list.items]]
+        details = "Linux/Docker/Kubernetes"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Bachelor Degree in Computer Science"
+        university = "Chengdu University Information Technology"
+        dates = "2001 - 2005"
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Qualter innovation star"
+        body = "Nokia, Chengdu"
+        date = "2019"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Chinese"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+    [params.summary]
+        enable = true
+        text = "My name is Jason.I have more than 10 years work experice on software engineering. I have works for HuaWei and Nokia for about 13 years. I'm focus on the technology and I love programming. I'm a Linux geeker, I have worked under Linux for 10 years and I personal PC also use Linux. I'm a team guy, I'm will to help the team member and share something new. I like challenge and will to face it."
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Expert, Domain Expert"
+        dates = "2016 - Present"
+        company = "Nokia"
+        details = "Software developement for Nokia OSS(Operation servicability system) product. Customer requirement analysis & Architecutre Design . Coding and Testing. Devops engineering. Communication outside and inside. Competance build for all team member"
+        [[params.experience.list.items]]
+        details = "GO lang dev under micro service architecture with relavent skills"
+        [[params.experience.list.items]]
+        details = "Java dev under J2EE architecture with relavent skills"
+        [[params.experience.list.items]]
+        details = "Arequirement analysis and architecture design"
+
+        [[params.experience.list]]
+        title = "Lead Software Developer"
+        dates = "2008 - 2016"
+        company = "Nokia"
+        details = "Nokia OSS product development, able to development with JAVA and C/C++ under Linux system. Fluent to use relation database technique. farmilar to programming under Linux platform. Good communication and collaboration." 
+        [[params.experience.list.items]]
+        details = "Java and CPP dev"
+
+        [[params.experience.list]]
+        title = "Software Developer"
+        dates = "2005 - 2008"
+        company = "HuaWei"
+        details = "Work for the HLR product development, it is telecom 2G core netowrk device. work on the protocol stack development part by using CPP skill."
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Neo"
+        meta = "commercial"
+        tagline = "The project is for next generation OSS product with microservice architecture. Many team working on this project, My service is used to collect the raw data from external devices with NETCONF protocol. It is implemented with GO and deploy into K8S, it interactive with related microservice middleware component, such as KAFKA, Minio, postgresSQL, prometeous, ELK. I'm farmilar with microserice development activity and able to development a new service with this technique."
+
+        [[params.projects.list]]
+        title = "K8Sadmin"
+        meta = "personal"
+        tagline = "This is a personal project for my friend. It use my spare time. The project is aim to provide a tool to CURD the service instance which running under K8S, it provide the similar function as HELM which is most popular tool to administrate K8S cluster. But at that time, HELM is not ready for publish. This project using the bash scripting and provide the CLI interface under Linux."
+
+        [[params.projects.list]]
+        title = "OSS8"
+        meta = "commercial"
+        tagline = "Develop the product under J2EE architecture and also POJO Java programming. The later application is call NTCAPP, it is a REST applicaiton by using Springboot framework. I have worked as tech Lead in the team, responsible for the application requirement analysis, software design and evolution. and also coding and testing."
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Innovations"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Football, Climbing, Snowboarding, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "https://github.com/sailing0505?tab=repositories"
+        title = "sailing0505"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/hanghai-wu-71296118/"
+        title = "wuhanghai@gmail.com"
+        [[params.social.list]]
+        icon = "fab fa-weixin"
+        url = "//twitter.com/username"
+        title = "18583657638"
+
+
