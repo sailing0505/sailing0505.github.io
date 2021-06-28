@@ -1,0 +1,16 @@
+- id: awards
+  translation: 成就
+- id: education
+  translation: 教育经历
+- id: experiences
+  translation: 工作履历
+- id: information
+  translation: 信息
+- id: interests
+  translation: 爱好
+- id: languages
+  translation: 语言
+- id: projects
+  translation: 项目经历
+- id: skills
+  translation: 专业技能
